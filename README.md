@@ -13,7 +13,7 @@ I need your help keeping it honest.
 
 Got a word to suggest? Think something shouldn't be in here? There are two paths:
 1. Open an issue on GitHub. I'll review it.
-2.Head to r/FlexWord and use the **Word List** flair. That's where the conversation
+1. Head to r/FlexWord and use the **Word List** flair. That's where the conversation
 happens.
 
 ## About the list
