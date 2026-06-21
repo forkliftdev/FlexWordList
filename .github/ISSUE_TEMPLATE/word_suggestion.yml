@@ -1,0 +1,33 @@
+name: Word Suggestion
+description: Suggest a word to add to the list
+labels: ["word suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting, consider posting to r/FlexWord with the **Word List** flair — that's where word debates happen. This form is for clear-cut additions only.
+  - type: input
+    id: word
+    attributes:
+      label: Word
+      placeholder: e.g. crunk
+    validations:
+      required: true
+  - type: input
+    id: definition
+    attributes:
+      label: Brief definition or context
+      placeholder: e.g. slang for crazy drunk, used widely in hip-hop
+    validations:
+      required: true
+  - type: dropdown
+    id: length
+    attributes:
+      label: Word length
+      options:
+        - 3 letters
+        - 4 letters
+        - 5 letters
+        - 6 letters
+    validations:
+      required: true
